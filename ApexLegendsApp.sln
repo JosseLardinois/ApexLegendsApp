@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexLegendsApp", "ApexLegendsApp\ApexLegendsApp.csproj", "{1F7608D9-0FB9-443B-8D37-9FD355203E04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibraryApex", "DataLibraryApex\DataLibraryApex.csproj", "{0DF433E0-4499-41F9-B365-483B73C35D9A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ApexLegendsDB", "ApexLegendsDB\ApexLegendsDB.sqlproj", "{24A421A9-262F-47C3-AA68-7685977E3DC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7608D9-0FB9-443B-8D37-9FD355203E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7608D9-0FB9-443B-8D37-9FD355203E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7608D9-0FB9-443B-8D37-9FD355203E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7608D9-0FB9-443B-8D37-9FD355203E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF433E0-4499-41F9-B365-483B73C35D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF433E0-4499-41F9-B365-483B73C35D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF433E0-4499-41F9-B365-483B73C35D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF433E0-4499-41F9-B365-483B73C35D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A421A9-262F-47C3-AA68-7685977E3DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24A421A9-262F-47C3-AA68-7685977E3DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24A421A9-262F-47C3-AA68-7685977E3DC1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{24A421A9-262F-47C3-AA68-7685977E3DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24A421A9-262F-47C3-AA68-7685977E3DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24A421A9-262F-47C3-AA68-7685977E3DC1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78CAE8EB-79AE-41FD-A9BB-A31E0C8E52EE}
+	EndGlobalSection
+EndGlobal
