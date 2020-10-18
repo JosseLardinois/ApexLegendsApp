@@ -69,5 +69,7 @@ namespace ApexLegendsApp.Controllers
 
             return View();
         }
+
+
     }
 }

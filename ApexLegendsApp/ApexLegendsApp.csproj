@@ -143,10 +143,12 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CalculatorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CalculatorModel.cs" />
     <Compile Include="Models\KarakterModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -191,6 +193,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\SignKarakterUp.cshtml" />
     <Content Include="Views\Home\ViewKarakter.cshtml" />
+    <Content Include="Views\Calculator\PackCalculator.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -201,13 +204,17 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApexLogic\ApexLogic.csproj">
+      <Project>{1c378321-f691-4ea3-8de2-2c94b53adb15}</Project>
+      <Name>ApexLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataLibraryApex\DataLibraryApex.csproj">
       <Project>{0df433e0-4499-41f9-b365-483b73c35d9a}</Project>
       <Name>DataLibraryApex</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

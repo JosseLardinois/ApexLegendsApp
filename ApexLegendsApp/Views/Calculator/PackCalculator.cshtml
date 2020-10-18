@@ -1,0 +1,44 @@
+﻿@model ApexLegendsApp.Models.CalculatorModel
+@{
+    ViewBag.Title = "PackCalculator";
+}
+<html>
+<head>
+    </head>
+<body>
+    <h2>PackCalculator</h2>
+        <div class="row">
+        @using (Html.BeginForm("/PackCalculator", "Calculator", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="CurrentLevel">Current Level</label>
+                <input type="text" class="form-control" id="CurrentLevel" name="CurrentLevel" value="@Model.CurrentLevel" />
+            </div>
+
+            <div class="form-group">
+                <label for="Battlepass">Battle Pass Level</label>
+                <input type="text" class="form-control" id="Battlepass" name="Battlepass" value="@Model.Battlepass" />
+            </div>
+
+            <div class="form-group">
+                <label for="BoughtPacks">Bought Pack</label>
+                <input type="text" class="form-control" id="BoughtPacks" name="BoughtPacks" value="@Model.BoughtPacks" />
+            </div>
+
+            <div class="form-group">
+                <label for="PlayedSeasons">PlayedSeasons</label>
+                <input type="text" class="form-control" id="PlayedSeasons" name="PlayedSeasons" value="@Model.PlayedSeasons" />
+            </div>
+
+            <div class="form-group">
+                <label for="CurrentPack">Current Pack</label>
+                <input type="text" class="form-control" id="CurrentPack" name="CurrentPack" value="@Model.CurrentPack" />
+            </div>
+
+
+            <button type="submit" class="btn btn-info" id="add" value="add" name="calculate">Calculate!</button>
+        }
+
+    </div>
+    </body>
+</html>
