@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexLegendsApp", "ApexLegendsApp\ApexLegendsApp.csproj", "{1F7608D9-0FB9-443B-8D37-9FD355203E04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibraryApex", "DataLibraryApex\DataLibraryApex.csproj", "{0DF433E0-4499-41F9-B365-483B73C35D9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DALapex", "DataLibraryApex\DALapex.csproj", "{0DF433E0-4499-41F9-B365-483B73C35D9A}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ApexLegendsDB", "ApexLegendsDB\ApexLegendsDB.sqlproj", "{24A421A9-262F-47C3-AA68-7685977E3DC1}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "XApexLegendsDB", "ApexLegendsDB\XApexLegendsDB.sqlproj", "{24A421A9-262F-47C3-AA68-7685977E3DC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexLogic", "ApexLogic\ApexLogic.csproj", "{1C378321-F691-4EA3-8DE2-2C94B53ADB15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogicLayerApex", "ApexLogic\LogicLayerApex.csproj", "{1C378321-F691-4EA3-8DE2-2C94B53ADB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicInterface", "CalculateDTO\LogicInterface.csproj", "{C7635C75-5C6C-4D12-8E68-5B5465DE6B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalInterface", "DalInterface\DalInterface.csproj", "{7A83799D-2B40-4C71-8771-45D7630DA466}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{1C378321-F691-4EA3-8DE2-2C94B53ADB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C378321-F691-4EA3-8DE2-2C94B53ADB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C378321-F691-4EA3-8DE2-2C94B53ADB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7635C75-5C6C-4D12-8E68-5B5465DE6B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7635C75-5C6C-4D12-8E68-5B5465DE6B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7635C75-5C6C-4D12-8E68-5B5465DE6B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7635C75-5C6C-4D12-8E68-5B5465DE6B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A83799D-2B40-4C71-8771-45D7630DA466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A83799D-2B40-4C71-8771-45D7630DA466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A83799D-2B40-4C71-8771-45D7630DA466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A83799D-2B40-4C71-8771-45D7630DA466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

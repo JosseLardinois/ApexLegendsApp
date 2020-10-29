@@ -206,9 +206,13 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ApexLogic\ApexLogic.csproj">
+    <ProjectReference Include="..\ApexLogic\LogicLayerApex.csproj">
       <Project>{1c378321-f691-4ea3-8de2-2c94b53adb15}</Project>
-      <Name>ApexLogic</Name>
+      <Name>LogicLayerApex</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CalculateDTO\LogicInterface.csproj">
+      <Project>{c7635c75-5c6c-4d12-8e68-5b5465de6b97}</Project>
+      <Name>LogicInterface</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

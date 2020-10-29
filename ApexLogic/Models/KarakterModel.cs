@@ -1,4 +1,4 @@
-﻿namespace ApexLogic.Models
+﻿namespace LogicLayerApex.Models
 {
     public class KarakterModel
     {

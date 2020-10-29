@@ -1,6 +1,6 @@
-﻿namespace LogicLayerApex.Models
+﻿namespace LogicInterface
 {
-    public class CalculatorModel
+    public class CalculatorDTO
     {
         public int CurrentLevel { get; set; }
         public int Battlepass { get; set; }

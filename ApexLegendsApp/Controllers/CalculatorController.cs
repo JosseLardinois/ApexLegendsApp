@@ -6,7 +6,9 @@ using System.Runtime.CompilerServices;
 using System.Web;
 using System.Web.Mvc;
 using ApexLogic;
-using ApexLogic.Models;
+using LogicInterface;
+using LogicLayerApex.Models;
+
 
 namespace ApexLegendsApp.Controllers
 {
@@ -21,9 +23,18 @@ namespace ApexLegendsApp.Controllers
         [HttpPost]
         public ActionResult PackCalculator(CalculatorModel calculator)
         {
-            CalculatorLogic x = new CalculatorLogic();
-            calculator = x.Calculate(calculator);
+            CalculatorLogic calculatorLogic = new CalculatorLogic();
+            CalculatorDTO calculatorDto = new CalculatorDTO();
+            calculatorDto.CurrentLevel = calculator.CurrentLevel;
+            calculatorDto.Battlepass = calculator.Battlepass;
+            calculatorDto.BoughtPacks = calculator.BoughtPacks;
+            calculatorDto.PlayedSeasons = calculator.PlayedSeasons;
+            calculatorDto.CurrentPack = calculator.CurrentPack;
+            calculatorLogic.Calculate(calculator);
+
             return View(calculator);
         }
+
+        
     }
 }

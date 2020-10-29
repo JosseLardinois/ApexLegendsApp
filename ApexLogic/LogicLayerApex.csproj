@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalculateDTO\LogicInterface.csproj" />
+    <ProjectReference Include="..\DalInterface\DalInterface.csproj" />
+    <ProjectReference Include="..\DataLibraryApex\DALapex.csproj" />
+  </ItemGroup>
+
+</Project>
