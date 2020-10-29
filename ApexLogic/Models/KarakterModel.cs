@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DataLibraryApex.Models
+﻿namespace ApexLogic.Models
 {
     public class KarakterModel
     {

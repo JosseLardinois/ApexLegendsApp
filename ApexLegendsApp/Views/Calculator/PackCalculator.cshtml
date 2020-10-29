@@ -1,14 +1,10 @@
-﻿@model ApexLegendsApp.Models.CalculatorModel
+﻿@model ApexLogic.Models.CalculatorModel
 @{
     ViewBag.Title = "PackCalculator";
 }
-<html>
-<head>
-    </head>
-<body>
-    <h2>PackCalculator</h2>
-        <div class="row">
-        @using (Html.BeginForm("/PackCalculator", "Calculator", FormMethod.Post))
+<h2>PackCalculator</h2>
+    <div class="row">
+        @using (Html.BeginForm("PackCalculator", "Calculator", FormMethod.Post))
         {
             <div class="form-group">
                 <label for="CurrentLevel">Current Level</label>
@@ -40,5 +36,3 @@
         }
 
     </div>
-    </body>
-</html>

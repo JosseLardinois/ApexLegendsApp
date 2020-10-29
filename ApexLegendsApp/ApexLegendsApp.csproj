@@ -210,10 +210,6 @@
       <Project>{1c378321-f691-4ea3-8de2-2c94b53adb15}</Project>
       <Name>ApexLogic</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataLibraryApex\DataLibraryApex.csproj">
-      <Project>{0df433e0-4499-41f9-b365-483b73c35d9a}</Project>
-      <Name>DataLibraryApex</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using static DataLibraryApex.BusinessLogic.KarakterProcessor;
 
 namespace ApexLegendsApp.Controllers
 {
@@ -28,8 +27,9 @@ namespace ApexLegendsApp.Controllers
 
             return View();
         }
-        public ActionResult ViewKarakter()
+        /*public ActionResult ViewKarakter()
         {
+            
             ViewBag.Message = "Karakter Lijst";
 
             var data = LoadKarakters();
@@ -48,6 +48,7 @@ namespace ApexLegendsApp.Controllers
 
             return View(karakters);
         }
+        
         public ActionResult SignKarakterUp()
         {
             ViewBag.Message = "Karakter Sign up";
@@ -68,7 +69,7 @@ namespace ApexLegendsApp.Controllers
             }
 
             return View();
-        }
+        }*/
 
 
     }
